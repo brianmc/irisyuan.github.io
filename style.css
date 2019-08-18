@@ -1,8 +1,13 @@
 /* Typography imported from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Source+Sans+Pro:200,400');
 
 p, a, h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-family:'Noto Serif SC', serif;
+  color:gray;
 }
 
 html {
