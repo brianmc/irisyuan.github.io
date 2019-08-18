@@ -1,0 +1,46 @@
+/* Typography imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400');
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+  transition: all .3s;
+}
+
+.intro {
+  background-color: white; 
+  background-size: cover;
+  padding: 2rem 4rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.intro > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.intro > article > h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+#contact {
+  width:40px;
+  height:40px;
+}
+
+article {
+  padding: 10%;
+}
